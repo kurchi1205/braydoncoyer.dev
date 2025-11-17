@@ -48,7 +48,7 @@ export default async function Home() {
                   delay={PARAGRAPH_DELAY}
                   className="leading-8 text-text-secondary"
                 >
-                  I&apos;m an AI/ML engineer with a passion for building scalable systems, exploring generative models, and turning complex ideas into working solutions. I love experimenting with new architectures, optimizing pipelines, and pushing the boundaries of what models can do. Outside of tech, you'll usually find me singing, it's my reset button and my favorite way to unwind.
+                  I&apos;m an AI/ML engineer with a passion for building scalable systems, exploring generative models, and turning complex ideas into working solutions. I love experimenting with new architectures, optimizing pipelines, and pushing the boundaries of what models can do. Outside of tech, you&apos;ll usually find me singing, it&apos;s my reset button and my favorite way to unwind.
                 </AnimatedText>
               </div>
             </GridWrapper>
