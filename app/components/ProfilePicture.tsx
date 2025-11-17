@@ -3,21 +3,23 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+
 export function ProfilePicture() {
-  const [imageSrc, setImageSrc] = useState("/braydon_headshot_1.jpeg");
+  const [imageSrc, setImageSrc] = useState("/prerana_profile_sq.png");
   const [isChanging, setIsChanging] = useState(false);
 
   const changeImage = () => {
-    setIsChanging(true);
-    const images = [
-      "/braydon_headshot_1.jpeg",
-      "/braydon_headshot_3.jpg",
-      "/braydon_speaking_photo.jpeg",
-      "/braydon_headshot_4.jpg",
-    ];
-    const availableImages = images.filter((img) => img !== imageSrc);
-    const randomIndex = Math.floor(Math.random() * availableImages.length);
-    setImageSrc(availableImages[randomIndex]);
+    setImageSrc("/prerana_profile_sq.png");
+    // setIsChanging(true);
+    // const images = [
+    //   "/braydon_headshot_1.jpeg",
+    //   "/braydon_headshot_3.jpg",
+    //   "/braydon_speaking_photo.jpeg",
+    //   "/braydon_headshot_4.jpg",
+    // ];
+    // const availableImages = images.filter((img) => img !== imageSrc);
+    // const randomIndex = Math.floor(Math.random() * availableImages.length);
+    // setImageSrc(availableImages[randomIndex]);
   };
 
   useEffect(() => {
